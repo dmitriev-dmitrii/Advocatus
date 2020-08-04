@@ -108,7 +108,7 @@
 }
 
 .header__main-hero {
-  background: linear-gradient(rgba(52, 52, 52, 0.2), black), url(/img/header/bg_header.webp);
+  background: linear-gradient(rgba(52, 52, 52, 0.2), black), url(/img/header/bg_header.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
