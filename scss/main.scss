@@ -32,6 +32,10 @@ font-size: 14px;
 
 
 /* общие стили */
+html
+{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Playfair Display', serif;
 	margin: 0;
@@ -41,6 +45,7 @@ body{
 width: 80%;
 margin: 2vw auto;
 padding: 2vw 0;
+overflow: hidden;
 }
 .italic {
 	font-style: italic;
@@ -139,6 +144,6 @@ transition: 0.3s;
 @media screen and (max-width: 576px) 
 {
 	.section-content__body{
-		width: 91%;
+		width: 90%;
 		}
 }
