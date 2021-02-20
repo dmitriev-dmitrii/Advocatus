@@ -4,13 +4,13 @@
 
 .section-3__hero-list {
 display: grid;
-grid-template-columns: 1fr 1fr  1fr 1fr;
-grid-gap: 1em;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 2rem;
+
 }
 
 .hero__list-item {
-
-
+box-shadow: 0 0 1px 1px rgba(102, 102, 102, 0.404) inset;
 }
 
 .hero__list-item-img {
@@ -22,7 +22,7 @@ object-fit: cover;
 
 .hero__list-item-txt-wrapper 
 {
-
+padding: 0.5rem;
 }
 
 .hero__list-item-title 
@@ -66,9 +66,8 @@ font-size: 30px;
 
 {
 font-size: 21px;
-
-
 }
+
 }
 
 
@@ -84,9 +83,8 @@ font-size: 21px;
 		.hero__list-item-title 
 
 		{
-font-size: 30px;
+font-size: 1.4rem;
 
-		
 		}
 		.hero__list-item-txt-wrapper 
 {
@@ -96,9 +94,7 @@ font-size: 30px;
 .hero__list-item-subtitle 
 
 {
-font-size: 21px;
-
-
+font-size: 1.2rem;
 }
 .hero__list-item-img {
 
